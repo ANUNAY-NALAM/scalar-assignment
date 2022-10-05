@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-home {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    width: 20%;
+    height: 80%;
+    background: rgb(13, 80, 104);
+    padding: 10px;
+    position: absolute;
+}
+
+.sidebar h1 {
+    color: rgb(187, 190, 141);
+    text-align: center;
+    margin: 20px;
+}
+
+.sidebar button {
+    color: black;
+    background-color: cornsilk;
+    border-radius: 5px;
+}

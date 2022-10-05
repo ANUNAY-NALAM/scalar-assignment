@@ -1,0 +1,55 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-container h1 {
+    color: wheat;
+    font-size: 15px;
+}
+
+.input-container {
+    margin: 10px;
+    margin: auto;
+    padding: 30px;
+    width: 60%;
+    display: grid;
+    /*background-color: #fffe77af;*/
+    background: radial-gradient(ellipse at right top,
+            #480961,
+            #1f1525,
+            #480961);
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.5);
+}
+
+.input-container input {
+
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.input-container div {
+    display: flex;
+}
+
+.input-container check{
+    display: flex;
+}
+
+.input-container div p {
+    color: bisque;
+}
